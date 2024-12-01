@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <main class="justify-items-center overflow-hidden h-[100vh] rounded-lg">
+      <div class="justify-items-center p-20 bg-[#2a2727] w-[20rem]">
+        <div class="">
+          <input
+            class="h-[5rem] text-white font-bold text-3xl w-[20rem] mb-4 rounded-lg bg-[#898888]"
+            id="display"
+            readonly
+          />
+        </div>
+        <div class="grid grid-cols-4 w-[14rem] gap-5" id="buttons">
+          <button
+            class="h-14 w-14 rounded-full text-white bg-yellow-500"
+            onclick="appendToDisplay('+')"
+          >
+            +
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('7')"
+          >
+            7
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('8')"
+          >
+            8
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('9')"
+          >
+            9
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white bg-yellow-500"
+            onclick="appendToDisplay('-')"
+          >
+            -
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('4')"
+          >
+            4
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('5')"
+          >
+            5
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('6')"
+          >
+            6
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white bg-yellow-500"
+            onclick="appendToDisplay('*')"
+          >
+            *
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('1')"
+          >
+            1
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('2')"
+          >
+            2
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('3')"
+          >
+            3
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white bg-yellow-500"
+            onclick="appendToDisplay('/')"
+          >
+            /
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('0')"
+          >
+            0
+          </button>
+
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="appendToDisplay('.')"
+          >
+            .
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white"
+            onclick="calculate('=')"
+          >
+            =
+          </button>
+          <button
+            class="h-14 w-14 rounded-full text-white bg-yellow-500"
+            onclick="clearDisplay('C')"
+          >
+            C
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="../file.js"></script>
+  </body>
+</html>
